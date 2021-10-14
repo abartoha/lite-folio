@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/customcss-green.css">
+	<link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body data-spy="scroll" data-target=".navbar-collapse">
@@ -27,13 +28,20 @@
 	<!-- header section -->
 	<header>
 		<div class="container">
-			<div class="row">
-				<div class="col-md-12 col-sm-12">
-					<img src="images/tm-easy-profile.jpg" class="img-responsive img-circle tm-border filter-img"
-						alt="" style="max-height: 25vh;">
-					<hr>
-					<h1 class="tm-title bold shadow">Hi, I am <span style="color:black">Al Razi</span></h1>
-					<h1 class="white bold shadow">Junior Web Developer</h1>
+			<div class="row header-row">
+				<div class="col-12 h-vh max-vw overflow-hidden">
+					<img src="images/tm-easy-profile.jpg"
+						class="img-responsive img-circle tm-border filter-img wow fadeInDownBig" data-wow-duration="1s"
+						data-wow-delay="2s" alt="" style="max-height: 25vh;">
+					<hr class="wow flipInY" data-wow-delay="2s">
+					<h1 class="tm-title bold shadow wow fadeInRight" data-wow-duration="1s" data-wow-delay="3s">Hi, I
+						am <span style="color:black">Al Razi</span></h1>
+					<h1 class="white bold shadow wow fadeInLeft" data-wow-duration="1s" data-wow-delay="4s">Junior Web
+						Developer</h1>
+					<!-- <h5 class="white bold shadow click-me">Hover Here</h5> -->
+					<p class="tm-title bold shadow text-center wow jackInTheBox" data-wow-duration="1s" data-wow-delay="5s">
+						Seasoned programmer in Pyton, JS and Dart
+					</p>
 				</div>
 			</div>
 		</div>
@@ -42,19 +50,22 @@
 	<!-- about and skills section -->
 	<section class="container">
 		<div class="row">
-			<div class="col-md-6 col-sm-12">
+			<div class="max-vw col-md-6 col-sm-12 wow flipInX" data-wow-delay="1s">
 				<div class="about">
 					<h3 class="accent">About Me</h3>
 					<h2>Orbis non sufficit</h2>
 					<p>
-						No project too big, no deadline too short, no work too hard, no rest until the end. My mission is always first. <br> <br>
-						I have a lot more experience as a Python Developer (Web Scraping, GUI, Science) but I do web development just for savings. I need more money for better hardware so I can practise more Cyber Security, Game Development and Networking.
+						No project too big, no deadline too short, no work too hard, no rest until the end. My mission
+						is always first. <br> <br>
+						I have a lot more experience as a Python Developer (Web Scraping, GUI, Science) but I do web
+						development just for savings. I need more money for better hardware so I can practise more Cyber
+						Security, Game Development and Networking.
 					</p>
 				</div>
 			</div>
-			<div class="col-md-6 col-sm-12">
+			<div class="max-vw col-md-6 col-sm-12 px-0 wow lightSpeedInRight" data-wow-delay="0.5s">
 				<div class="skills">
-					<h2 class="white">Skills</h2>
+					<h2 class="white">Notable Skills</h2>
 					<strong>Wordpress</strong>
 					<span class="pull-right">65%</span>
 					<div class="progress">
@@ -81,7 +92,7 @@
 	<!-- education and languages -->
 	<section class="container">
 		<div class="row">
-			<div class="col-md-8 col-sm-12">
+			<div class="max-vw col-md-8 col-sm-12 wow flipInX" data-wow-delay="2s">
 				<div class="education">
 					<h2 class="white">Education</h2>
 					<div class="education-content">
@@ -93,12 +104,12 @@
 						<p class="education-description">
 							Notre Dame College is the best boys' college in the entire country. I am honored to have
 							studied there and passed with great distinction as a good student and <strong>Class
-							Captain</strong>. I have been an active member of the Cultural Club since 2020.
+								Captain</strong>. I have been an active member of the Cultural Club since 2020.
 						</p>
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 col-sm-12">
+			<div class="max-vw col-md-4 col-sm-12 wow flipInX" data-wow-delay="1s">
 				<div class="languages">
 					<h2>Languages</h2>
 					<ol>
@@ -114,21 +125,27 @@
 	<!-- contact and experience -->
 	<section class="container">
 		<div class="row">
-			<div class="col-md-4 col-sm-12">
-				<div class="contact">
-					<h2>Contact</h2>
-					<p><i class="fa fa-map-marker"></i> <span>  </span> 72, Zeropoint, Khulna</p>
-					<p><i class="fa fa-phone"></i> +88-01850-477-827</p>
-					<p><i class="fa fa-envelope"></i> abar.toha@gmail.com</p>
-
-
+			<div class="max-vw col-md-4 col-sm-12 wow lightSpeedInLeft" data-wow-delay="2s">
+				<div class="experience">
+					<h2 class="white">
+						Goals
+					</h2>
+					<p>
+						My life goals in short:
+					</p>
+					<ul>
+						<li>Automobile & Arms Engineering</li>
+						<li>Cryptograaphy</li>
+						<li>Spice Farm</li>
+						<li>Martial Arts</li>
+					</ul>
 				</div>
 			</div>
-			<div class="col-md-8 col-sm-12">
+			<div class="max-vw col-md-8 col-sm-12 wow flipInX" data-wow-delay="2s">
 				<div class="experience">
 					<h2 class="white">Experiences</h2>
 					<div class="experience-content">
-						<h4 class="experience-title accent">Wordpress Web Developer</h4>
+						<h4 class="experience-title accent">Web Developer</h4>
 						<h5>Notre Dame Cultural Club, Venustas Development Ltd.</h5>
 						<p class="education-description">
 							Albeit it's a college website, it was a major leap in my career as I had to take decisions
@@ -146,38 +163,39 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-12 col-md-8">
+	</section>
+
+	<section class="container">
+		<div class="row">
+			<div class="max-vw col-12 col-md-8 wow fadeInBottomLeft" data-wow-delay="1s">
 				<div class="contact">
 					<h2 class="accent">
 						Projects
 					</h2>
 					<p>
-						I have done projects for Web (HTML/CSS/JS/PHP/React), Desktop (C++/Python/Java), Mobile (Kivy-python); like these:
+						I have done projects for Web (HTML/CSS/JS/PHP/React), Desktop (C++/Python/Java), Mobile
+						(Kivy-python); like these:
 					</p>
 					<ul>
 						<li>brtc - Desktop Screen Brightness Controller GUI, Cross Platform</li>
 						<li>clkAngle - GUI Calculator for angles between clock hands</li>
 						<li>WIFI Password Extractor - Command Line Automation (Windows)</li>
-						<li><a target="_blank" href="https://jovial-tereshkova-26fce0.netlify.app/">Bookley</a> - openLibrary API based book search engine</li>
-						<li><a target="_blank" href="https://www.frecodecamp.org">freecodecamp</a> Responsive Web Design Course completed</li>
+						<li><a target="_blank" href="https://jovial-tereshkova-26fce0.netlify.app/">Bookley</a> -
+							openLibrary API based book search engine</li>
+						<li><a target="_blank" href="https://www.frecodecamp.org">freecodecamp</a> Responsive Web Design
+							Course completed</li>
 					</ul>
-					<p>...and more</p>
 				</div>
 			</div>
-			<div class="col-12 col-md-4">
-				<div class="experience">
-					<h2 class="white">
-						Goals
-					</h2>
-					<p>
-						My life goals in short:
-					</p>
-					<ul>
-						<li>Automobile & Arms Engineering</li>
-						<li>Cryptograaphy</li>
-						<li>Spice Farm</li>
-						<li>Martial Arts</li>
-					</ul>
+			<div class="max-vw col-12 col-md-4 wow jackInTheBox" data-wow-delay="2s">
+				
+				<div class="contact">
+					<h2>Contact</h2>
+					<p><i class="fa fa-map-marker"></i> <span> </span> 72, Zeropoint, Khulna</p>
+					<p><i class="fa fa-phone"></i> +88-01850-477-827</p>
+					<p><i class="fa fa-envelope"></i> abar.toha@gmail.com</p>
+
+
 				</div>
 			</div>
 		</div>
@@ -187,8 +205,8 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 col-sm-12">
-					<p>&copy;</p>
+				<p class="bg-dark p-2">👇 Click here! 👇</p>
+				<div class="max-vw col-md-12 col-sm-12 wow backInRight" data-wow-delay="3s">
 					<ul class="social-icons">
 						<li><a target="_blank" href="https://www.facebook.com/abartoha" class="fa fa-facebook"></a></li>
 						<li><a target="_blank" href="https://www.github.com/abartoha" class="fa fa-github"></a></li>
@@ -203,6 +221,10 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.backstretch.min.js"></script>
 	<script src="js/custom.js"></script>
+	<script src="js/wow.js"></script>
+	<script>
+		new WOW().init();
+	</script>
 
 </body>
 

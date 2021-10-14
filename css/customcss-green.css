@@ -7,6 +7,7 @@ html, body {
   overflow-x: hidden;
   position: relative;
   vertical-align: baseline;
+  overflow-x: hidden;
 }
 
 html {
@@ -41,6 +42,14 @@ h2 {
   padding-bottom: 14px;
 }
 
+.h-vh{
+  height: 100vh;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .accent {
   font-family: 'Proxima Bold';
   line-height: 14px;
@@ -57,7 +66,7 @@ h2 {
 }
 
 .shadow {
-  text-shadow: 1px 1px #000;
+  text-shadow: 2px 2px #000;
 }
 
 .tm-title {
@@ -162,12 +171,11 @@ header {
   min-height: 400px;
   overflow: hidden;
   position: relative;
-  padding-top: 160px;
-  padding-bottom: 140px;
 }
 
 header img {
   display: inline-block !important;
+  margin-top: 160px;
 }
 
 header h2 {
@@ -177,6 +185,10 @@ header h2 {
 header hr {
   border-color: #7ac143;
   width: 100px;
+}
+
+.header-row {
+  padding-bottom: 140px;
 }
 
 /* about section */
@@ -296,7 +308,7 @@ footer {
 }
 
 .social-icons li a {
-  background: #7ac143;
+  background: #317000;
   border-radius: 50%;
   color: #fff;
   text-decoration: none;
@@ -332,8 +344,18 @@ footer {
   .education h4, .experience h4 {
     font-size: 20px;
   }
+  .max-vw{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
 }
 
 .filter-img {
   filter: grayscale(40%);
+}
+
+.click-me:hover {
+  -webkit-animation: bounce 1s linear infinite;
+  animation: bounce 1s linear infinite;
 }
